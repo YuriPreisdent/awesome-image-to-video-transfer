@@ -40,6 +40,10 @@ _Please add more papers here_
 
 ---
 
+## 2025
+
+- **[AAAI 2025] TC-LLaVA: Rethinking the Transfer of LLava from Image to Video Understanding with Temporal Considerations**
+
 To add a new paper, please use the following format:
 
 ```markdown
