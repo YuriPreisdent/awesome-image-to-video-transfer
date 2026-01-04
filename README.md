@@ -13,8 +13,6 @@
 | 2024 | ACM MM | GLATrack | Knowledge Distillation        | [GLATrack: Global and Local Awareness for Open-Vocabulary Multiple Object Tracking](https://dl.acm.org/doi/10.1145/3664647.3681530) | N/A                                                          |
 | 2025 | TMM    | OVSORT   | Knowledge Distillation        | [Open-Vocabulary Multi-Object Tracking with Domain Generalized and Temporally Adaptive Features](https://ieeexplore.ieee.org/document/10948331/) | N/A                                                          |
 
----
-
 ### Spatio-Temporal Video Grounding (STVG)
 
 | Year | Venue   | Name      | Transfer Type                 | Title / Paper                                                | Code                                           |
@@ -27,8 +25,6 @@
 | 2024 | CVPR    | CGSTVG    | Fine-Tuning with Extra Models | [Context-Guided Spatio-Temporal Video Grounding](https://openaccess.thecvf.com/content/CVPR2024/papers/Gu_Context-Guided_Spatio-Temporal_Video_Grounding_CVPR_2024_paper.pdf) | [code](https://github.com/HengLan/CGSTVG)      |
 | 2025 | ICLR    | TASTVG    | Fine-Tuning with Extra Models | [Knowing Your Target: Target-Aware Transformer Makes Better Spatio-Temporal Video Grounding](https://openreview.net/forum?id=WOzffPgVjF) | [code](https://github.com/HengLan/TA-STVG)     |
 | 2025 | arXiv   | SpaceVLLM | Post Network Tuning           | [SpaceVLLM: Endowing Multimodal Large Language Models with Spatio-Temporal Video Grounding Capability](https://arxiv.org/abs/2503.13983) | [code](https://github.com/Jayce1kk/SpaceVLLM)  |
-
----
 
 ### Temporal Video Grounding (TVG)
 
@@ -46,21 +42,27 @@
 | 2025 | arXiv   | UniTime    | Fine-Tuning with Extra Models | [Universal Video Temporal Grounding with Generative Multi-modal Large Language Models](https://openreview.net/pdf/4055767632a62af30b6ed09833547df1c05de5ae.pdf) | NA                                              |
 | 2025 | arXiv   | VideoTG-R1 | Post Network Tuning           | [VideoTG-R1: Boosting Video Temporal Grounding via Curriculum Reinforcement Learning on Reflected Boundary Annotations](https://arxiv.org/abs/2510.23397) | [code](https://github.com/ldong1111/VideoTG-R1) |
 
----
-
 ## Coarse-grained Understanding
 
 ### Video-Text Retrieval (VTR)
 
-| Year | Venue          | Name       | Transfer Type            | Title / Paper                                                | Code                                              |
-| ---- | -------------- | ---------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------- |
-| 2022 | Neurocomputing | CLIP4Clip  | Full Fine-Tuning         | [Clip4clip: An empirical study of clip for end to end video clip retrieval and captioning](https://arxiv.org/abs/2104.08860) | [code](https://github.com/ArrowLuo/CLIP4Clip)     |
-| 2023 | CVPR           | VOP        | Prompt Tuning            | [Vop: Text-video co-operative prompt tuning for cross-modal retrieval](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_VoP_Text-Video_Co-Operative_Prompt_Tuning_for_Cross-Modal_Retrieval_CVPR_2023_paper.pdf) | [code](https://github.com/bighuang624/VoP)        |
-| 2024 | CVPR           | MV-Adapter | Fine-Tuning with Adapter | [Mv-adapter: Multimodal video transfer learning for video text retrieval](https://openaccess.thecvf.com/content/CVPR2024/papers/Jin_MV-Adapter_Multimodal_Video_Transfer_Learning_for_Video_Text_Retrieval_CVPR_2024_paper.pdf) | [code](https://github.com/huanngzh/MV-Adapter)    |
-| 2024 | CVPR           | TeachCLIP  | Knowledge Distillation   | [Holistic features are almost sufficient for text-to-video retrieval](https://openaccess.thecvf.com/content/CVPR2024/papers/Tian_Holistic_Features_are_almost_Sufficient_for_Text-to-Video_Retrieval_CVPR_2024_paper.pdf) | [code](https://github.com/ruc-aimc-lab/TeachCLIP) |
-| 2025 | CVPR           | DiscoVLA   | Fine-Tuning with LoRA    | [DiscoVLA: Discrepancy Reduction in Vision, Language, and Alignment for Parameter-Efficient Video-Text Retrieval](https://openaccess.thecvf.com/content/CVPR2025/papers/Shen_DiscoVLA_Discrepancy_Reduction_in_Vision_Language_and_Alignment_for_Parameter-Efficient_CVPR_2025_paper.pdf) | [code](https://github.com/LunarShen/DsicoVLA)     |
+| Year | Venue          | Name            | Transfer Type            | Title / Paper                                                | Code                                                    |
+| ---- | -------------- | --------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------- |
+| 2021 | Arxiv          | CLIP2Video      | /                        | [Clip2video: Mastering video-text retrieval via image clip](https://arxiv.org/pdf/2106.11097) | [code](https://github.com/CryhanFang/CLIP2Video/issues) |
+| 2021 | Arxiv          | CLIP2TV         | /                        | [Clip2tv: Align, match and distill for video-text retrieval](https://arxiv.org/abs/2111.05610) | N/A                                                     |
+| 2022 | Neurocomputing | CLIP4Clip       | Full Fine-Tuning         | [Clip4clip: An empirical study of clip for end to end video clip retrieval and captioning](https://arxiv.org/abs/2104.08860) | [code](https://github.com/ArrowLuo/CLIP4Clip)           |
+| 2022 | SIGIR          | CenterCLIP      | /                        | [Centerclip: Token clustering for efficient text-video retrieval](https://arxiv.org/abs/2205.00823) | [code](https://github.com/mzhaoshuai/CenterCLIP)        |
+| 2022 | ECCV           | TS2-Net         | /                        | [Ts2-net: Token shift and selection transformer for text-video retrieval](https://arxiv.org/abs/2207.07852) | [code](https://github.com/LiuRicky/ts2_net)             |
+| 2022 | ACM MM         | X-CLIP          | /                        | [X-clip: End-to-end multi-grained contrastive learning for video-text retrieval](https://arxiv.org/abs/2207.07285) | [code](https://github.com/xuguohai/X-CLIP)              |
+| 2022 | CVPR           | X-pool          | /                        | [X-pool: Cross-modal language-video attention for text-video retrieval](https://openaccess.thecvf.com/content/CVPR2022/papers/Gorti_X-Pool_Cross-Modal_Language-Video_Attention_for_Text-Video_Retrieval_CVPR_2022_paper.pdf) | [code](https://github.com/layer6ai-labs/xpool)          |
+| 2022 | Arxiv          | CLIP-Hitchhiker | /                        | [A clip-hitchhiker's guide to long video retrieval](https://arxiv.org/abs/2205.08508) | [code](https://github.com/m-bain/clip-hitchhiker)       |
+| 2023 | CVPR           | VOP             | Prompt Tuning            | [Vop: Text-video co-operative prompt tuning for cross-modal retrieval](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_VoP_Text-Video_Co-Operative_Prompt_Tuning_for_Cross-Modal_Retrieval_CVPR_2023_paper.pdf) | [code](https://github.com/bighuang624/VoP)              |
+| 2023 | ICLR           | CLIP-ViP        | /                        | [CLIP-ViP: Adapting Pre-trained Image-Text Model to Video-Language Alignment](https://openreview.net/pdf?id=GNjzMAgawq) | N/A                                                     |
+| 2023 | CVPR           | CLIPPING        | /                        | [Clipping: Distilling clip-based models with a student base for video-language retrieval](https://openaccess.thecvf.com/content/CVPR2023/papers/Pei_CLIPPING_Distilling_CLIP-Based_Models_With_a_Student_Base_for_Video-Language_CVPR_2023_paper.pdf) | N/A                                                     |
+| 2024 | CVPR           | MV-Adapter      | Fine-Tuning with Adapter | [Mv-adapter: Multimodal video transfer learning for video text retrieval](https://openaccess.thecvf.com/content/CVPR2024/papers/Jin_MV-Adapter_Multimodal_Video_Transfer_Learning_for_Video_Text_Retrieval_CVPR_2024_paper.pdf) | [code](https://github.com/huanngzh/MV-Adapter)          |
+| 2024 | CVPR           | TeachCLIP       | Knowledge Distillation   | [Holistic features are almost sufficient for text-to-video retrieval](https://openaccess.thecvf.com/content/CVPR2024/papers/Tian_Holistic_Features_are_almost_Sufficient_for_Text-to-Video_Retrieval_CVPR_2024_paper.pdf) | [code](https://github.com/ruc-aimc-lab/TeachCLIP)       |
+| 2025 | CVPR           | DiscoVLA        | Fine-Tuning with LoRA    | [DiscoVLA: Discrepancy Reduction in Vision, Language, and Alignment for Parameter-Efficient Video-Text Retrieval](https://openaccess.thecvf.com/content/CVPR2025/papers/Shen_DiscoVLA_Discrepancy_Reduction_in_Vision_Language_and_Alignment_for_Parameter-Efficient_CVPR_2025_paper.pdf) | [code](https://github.com/LunarShen/DsicoVLA)           |
 
----
 
 ### Video Action Recognition (VAR)
 
@@ -85,8 +87,6 @@
 | 2025 | CVPR  | BIMBA        | Post Network Tuning      | [BIMBA: Selective-Scan Compression for Long-Range Video Question Answering](https://openaccess.thecvf.com/content/CVPR2025/papers/Islam_BIMBA_Selective-Scan_Compression_for_Long-Range_Video_Question_Answering_CVPR_2025_paper.pdf) | [code](https://github.com/md-mohaiminul/BIMBA)           |
 | 2025 | arXiv | LeAdQA       | Post Network Tuning      | [Leadqa: Llm-driven context-aware temporal grounding for video question answering](https://arxiv.org/abs/2507.14784) | N/A                                                      |
 | 2025 | arXiv | SG-VLM       | Post Network Tuning      | [Bridging Vision Language Models and Symbolic Grounding for Video Question Answering](https://arxiv.org/abs/2509.11862) | N/A                                                      |
-
----
 
 ### Captioning
 
